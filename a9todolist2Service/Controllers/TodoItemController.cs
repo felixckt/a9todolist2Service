@@ -18,6 +18,8 @@ namespace a9todolist2Service.Controllers
             DomainManager = new EntityDomainManager<TodoItem>(context, Request);
         }
 
+
+
         // GET tables/TodoItem
         public IQueryable<TodoItem> GetAllTodoItems()
         {
